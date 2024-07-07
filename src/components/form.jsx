@@ -70,7 +70,7 @@ export default function Form() {
 
 
         try {
-            const response = await fetch('http://back-supplierselect.vercel.app', {
+            const response = await fetch('https://back-supplierselect.vercel.app', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
